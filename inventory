@@ -1,0 +1,11 @@
+172.28.130.2
+172.28.130.3
+172.28.130.4
+172.28.130.5
+172.28.130.6
+
+[all:vars]
+ansible_user=user
+ansible_ssh_pass=abc123.
+ansible_become_password=abc123.
+
