@@ -1,0 +1,10 @@
+---
+- host: all
+
+  become: true
+  tasks:
+    - name: actualizar repositorios
+      apt:
+        upgrade: yes
+        update_cache: yes
+
